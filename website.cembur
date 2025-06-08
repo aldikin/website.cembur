@@ -1,2 +1,199 @@
 # website.cembur
 pijat
+<!-- Script Store -->
+<!DOCTYPE HTML>
+<html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
+<link rel="stylesheet" href="cembur.css"/>
+<head>
+    <link rel="stylesheet" href="cembur.css"/>
+</head>
+<head>
+  <meta charset="utf-8" />
+  
+  <title>CEMBUR PIJAR REFLEKSI
+
+  </title>
+  
+  
+  <!-- end preload -->
+  
+  <!--[if lte IE 9]><link rel="stylesheet" href="//g.lazcdn.com/g/lzd/assets/1.2.13/dpl-buyeruikit/1.7.0/next-noreset-2.css" /><![endif]-->
+  
+  <script>
+  (function() {
+    try {
+      if (window.aplusPageIdSetComplete || /AliApp/i.test(navigator.userAgent)) {
+        return;
+      }
+  
+      var get_cookie = function (sName) {
+        var sRE = '(?:; )?' + sName + '=([^;]*);?';
+        var oRE = new RegExp(sRE);
+        if (oRE.test(document.cookie)) {
+        var str = decodeURIComponent(RegExp['$1']) || '';
+        if (str.trim().length > 0) {
+          return str;
+        } else {
+          return '-';
+        }
+        } else {
+          return '-';
+        }
+      };
+      var getRand = function () {
+        var page_id = get_cookie('cna') || '001';
+        page_id = page_id.toLowerCase().replace(/[^a-z\d]/g, '');
+        page_id = page_id.substring(0, 16);
+        var d = (new Date()).getTime();
+        var randend = [
+          page_id,
+          d.toString(16)
+        ].join('');
+  
+        for (var i = 1; i < 10; i++) {
+          var _r = parseInt(Math.round(Math.random() * 10000000000), 10).toString(16);
+          randend += _r;
+        }
+        randend = randend.substr(0, 42);
+        return randend;
+      };
+      var pageid = getRand();
+      var aq = (window.aplus_queue || (window.aplus_queue = []));
+      aq.push({
+        'action':'aplus.appendMetaInfo',
+        'arguments':['aplus-cpvdata', {"pageid":pageid}]
+      });
+      aq.push({
+        'action':'aplus.appendMetaInfo',
+        'arguments':['aplus-exdata',{"st_page_id":pageid}]
+      });
+      // 兼容老版本aplus
+      var gq = (window.goldlog_queue || (window.goldlog_queue = []));
+      gq.push({
+        'action':'goldlog.appendMetaInfo',
+        'arguments':['aplus-cpvdata', {"pageid":pageid}]
+      });
+      gq.push({
+        'action':'goldlog.appendMetaInfo',
+        'arguments':['aplus-exdata',{"st_page_id":pageid}]
+      });
+      window.aplusPageIdSetComplete = true;
+    } catch(err) {
+      console.error(err);
+    }
+  })();
+  </script>
+
+  <script type="text/javascript">
+    var timings = {
+      start: Date.now(),
+    };
+    var dataLayer = window.dataLayer || [];
+    var pdpTrackingData = "{\"pdt_category\":[\"Televisi & Video\"],\"pagetype\":\"pdp\",\"pdt_discount\":\"\",\"pdt_photo\":\"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg\",\"v_voya\":1,\"brand_name\":\"Samsung\",\"brand_id\":\"842\",\"pdt_sku\":3642482616,\"core\":{\"country\":\"ID\",\"layoutType\":\"desktop\",\"language\":\"in\",\"currencyCode\":\"IDR\"},\"seller_name\":\"\",\"pdt_simplesku\":6108584955,\"pdt_name\":\"BINTANGSLOT77 - Pengertian Link Slot Gacor Hari ini dan jenis-jenisnya Maxwin Indonesia\",\"page\":{\"regCategoryId\":\"300300002584\",\"xParams\":\"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr=\"},\"supplier_id\":\"\",\"pdt_price\":\"Rp7.621.000\"}";
+    try {
+      pdpTrackingData = JSON.parse(pdpTrackingData);
+      pdpTrackingData.v_voya = false;
+      dataLayer.push(pdpTrackingData);
+      dataLayer.push({
+        gtm_enable: false,
+        v_voya: false
+      });
+    } catch (e) {
+      if (window.console) {
+        console.log(e);
+      }
+    }
+    /**
+     * 支持beacon aplus script
+     */
+    var siteNameForApluPluginLoader = "Lazada";
+
+  </script>
+
+  <!-- csrf -->
+  <
+  }
+  
+  
+}
+</style>
+<style>
+      .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1000;
+          backdrop-filter: blur(5px);
+      }
+  
+      .popup {
+          background: rgb(170, 25, 25);
+          padding: 100px;
+          border-radius: 0px;
+          text-align: center;
+          box-shadow: 0 0 10px rgb(255, 255, 255);
+          width: 90%;
+          max-width: 400px;
+      }
+  
+      img.logo {
+              max-width: 80%; /* agakpusingdikit */
+              height: auto; /* kiwkiw */
+              margin-bottom: 20px; /* janganceramahberisik */
+          }
+  
+      button {
+          padding: 10px 20px;
+          margin: 10px;
+          background-color: #edf06a;
+          color: rgb(0, 0, 0);
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+      }
+  
+      button:hover {
+          background-color: #c96e07;
+      }
+  
+      .button-container {
+          display: flex;
+          justify-content: center;
+          gap: 10px; /* Space between buttons */
+      }
+  
+      @media (max-width: 600px) {
+          .button-container {
+              flex-direction: column;
+          }
+          button {
+              width: 100%; /* Tombol lebar penuh di mobile */
+          }
+      }
+  </style>
+<body
+    data-spm="pdp_revamp"style=""class="pdp-layout-column-2 pdp-layout-column-2">
+  <div class="overlay" id="popupOverlay">
+    <div class="popup"> 
+        <h3><span style="color: rgb(239, 255, 15);">CEMBUR PIJAT REFLEKSI<article> </span></h3>
+        <img src=burs.png alt="Cembur Pijat Refleksi" class="logo">
+        <h3><span style="color: rgb(239, 255, 15);">BADAN PEGAL-PEGAL? CEMBUR SOLUSINYA!</span></h3>
+        &nbsp;
+        <p>
+          <p style="text-align: center;"><span style="color: #ffffff;">Lelah dan pegal? Saatnya manjakan tubuhmu dengan sentuhan profesional</span> <span style="color: #ff0000;"><a style="color: #e1e978;" href="cembur1.png">pijat disini</a></span> <span style="color: #ffffff;">Pijat refleksi dan relaksasi, solusi alami untuk tubuh dan pikiran yang penat dari ujung kaki sampai kepala, kami hadir untuk membuatmu kembali bertenaga, Sentuhan lembut, hasil maksimal. Pijat panggilan siap datang ke lokasi Anda! Bukan sekadar pijat, ini adalah seni menyembuhkan</span></p>
+        </p>
+        &nbsp;
+        <div class="button-container">
+            <button onclick="location.href='bolehlah.html'">UMUR 18+      PIJAT</button>
+            <button onclick="location.href='burs.png'">DIBAWAH 18-  EXIT</button>
+        </div>
+    </div>
+</div>
+<script>
